@@ -14,6 +14,10 @@
 		122C1B662B87C030006662DE /* P_LTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C1B652B87C030006662DE /* P_LTests.swift */; };
 		122C1B702B87C030006662DE /* P_LUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C1B6F2B87C030006662DE /* P_LUITests.swift */; };
 		122C1B722B87C030006662DE /* P_LUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C1B712B87C030006662DE /* P_LUITestsLaunchTests.swift */; };
+		122C1B822B87C1BD006662DE /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C1B812B87C1BD006662DE /* Transaction.swift */; };
+		122C1B842B87C203006662DE /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C1B832B87C203006662DE /* TransactionType.swift */; };
+		122C1B862B87C2DA006662DE /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C1B852B87C2DA006662DE /* TintColor.swift */; };
+		122C1B882B87C314006662DE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C1B872B87C314006662DE /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		122C1B6B2B87C030006662DE /* P$LUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = P$LUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		122C1B6F2B87C030006662DE /* P_LUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P_LUITests.swift; sourceTree = "<group>"; };
 		122C1B712B87C030006662DE /* P_LUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P_LUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		122C1B812B87C1BD006662DE /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		122C1B832B87C203006662DE /* TransactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+		122C1B852B87C2DA006662DE /* TintColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintColor.swift; sourceTree = "<group>"; };
+		122C1B872B87C314006662DE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +103,10 @@
 		122C1B522B87C02E006662DE /* P$L */ = {
 			isa = PBXGroup;
 			children = (
+				122C1B802B87C12F006662DE /* Models */,
+				122C1B7F2B87C120006662DE /* View */,
+				122C1B7E2B87C110006662DE /* Other */,
 				122C1B532B87C02E006662DE /* P_LApp.swift */,
-				122C1B552B87C02E006662DE /* ContentView.swift */,
 				122C1B572B87C030006662DE /* Assets.xcassets */,
 				122C1B592B87C030006662DE /* P_L.entitlements */,
 				122C1B5A2B87C030006662DE /* Preview Content */,
@@ -127,6 +137,32 @@
 				122C1B712B87C030006662DE /* P_LUITestsLaunchTests.swift */,
 			);
 			path = P$LUITests;
+			sourceTree = "<group>";
+		};
+		122C1B7E2B87C110006662DE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				122C1B852B87C2DA006662DE /* TintColor.swift */,
+				122C1B872B87C314006662DE /* Constants.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		122C1B7F2B87C120006662DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				122C1B552B87C02E006662DE /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		122C1B802B87C12F006662DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				122C1B812B87C1BD006662DE /* Transaction.swift */,
+				122C1B832B87C203006662DE /* TransactionType.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122C1B842B87C203006662DE /* TransactionType.swift in Sources */,
 				122C1B562B87C02E006662DE /* ContentView.swift in Sources */,
 				122C1B542B87C02E006662DE /* P_LApp.swift in Sources */,
+				122C1B862B87C2DA006662DE /* TintColor.swift in Sources */,
+				122C1B822B87C1BD006662DE /* Transaction.swift in Sources */,
+				122C1B882B87C314006662DE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
